@@ -1,0 +1,65 @@
+# Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+*.o
+*.a
+
+# Go build output
+bin/
+dist/
+
+# Go test files
+*.test
+*.out
+
+# Dependency vendor folder (optional, use if you manage dependencies with vendor)
+# vendor/
+
+# Go workspace file
+go.work
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.project
+.settings/
+
+# Local environment files
+.env
+.env.local
+*.pem
+*.key
+
+# Local configuration files
+config/local.yaml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Build artifacts
+/bin
+/build
+dist/
+
+# Local storage directory
+storage/
